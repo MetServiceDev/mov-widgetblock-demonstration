@@ -1,0 +1,71 @@
+<HTML>
+    <head>
+        <style>
+            body {
+                background-image: url('so-white.png');
+            }
+            .container   {
+                display: grid;
+                column-gap: 10px;
+                row-gap: 20px;
+            }
+            @media screen and (min-width: 0px) {
+                .container {
+                    grid-template-columns: 1fr;
+                }
+            }
+            @media screen and (min-width: 769px) {
+                .container {
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+            @media screen and (min-width: 1025px) {
+                .container {
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+            }
+            .item-wrapper {
+                padding: 10px;
+            }
+            .item {
+                width: 100%;
+                box-shadow: 5px 5px 20px 1px rgba(0,0,0,0.5);
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="text-align: center; font-size: 25px; font-weight: bold; font-family: 'Helvetica'">
+            Widgetblocks
+        </div>
+        <div class="container">
+            <div class="item-wrapper">
+                <div class="item">
+                    <iframe
+                        style="width: 100%; height: 920px;"
+                        src="http://test-platform-external-widgets-spa.s3-website-us-east-1.amazonaws.com?a=U2FsdGVkX19EwU9q%2FVhvMpiuJAXo%2BvxMM4ZCmsRTpy2V8kG8UzK3mdfJ4t%2FmoKUMr%2B9yDFe%2B79bzDuhgItamgvOn%2F7IcRdW3QlV%2FXiPOc%2B8%3D"
+                        frameBorder="0"
+                    ></iframe>
+                </div>
+            </div>
+            <div class="item-wrapper">
+                <div class="item">
+                    <iframe
+                        style="width: 100%; height: 920px;"
+                        src="http://test-platform-external-widgets-spa.s3-website-us-east-1.amazonaws.com?a=U2FsdGVkX18BEE%2BgZPuWY0H1RuD7slmA2CNtWG6oORJuruo70c7SNsQ4QHS3EV6gZA2Hb0NURKOP7wDnJ%2BvmwPih1SB%2BBCCRppVbV2C0%2Bog%3D"
+                        frameBorder="0"
+                    ></iframe>
+                </div>
+            </div>
+            <div class="item-wrapper">
+                <div class="item">
+                    <iframe
+                        style="width: 100%; height: 920px;"
+                        src="http://test-platform-external-widgets-spa.s3-website-us-east-1.amazonaws.com?a=U2FsdGVkX18BEE%2BgZPuWY0H1RuD7slmA2CNtWG6oORJuruo70c7SNsQ4QHS3EV6gZA2Hb0NURKOP7wDnJ%2BvmwPih1SB%2BBCCRppVbV2C0%2Bog%3D"
+                        frameBorder="0"
+                    ></iframe>
+                </div>
+            </div>
+        </div>
+    </body>
+</HTML>
